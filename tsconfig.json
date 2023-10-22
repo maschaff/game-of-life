@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
     "module": "es2022",
-    "target": "ESNext"
+    "target": "ESNext",
+    "isolatedModules": true,
+    "moduleResolution":"node"
   },
   "include": ["src"],
   "exclude": ["**/*.spec.ts"]
